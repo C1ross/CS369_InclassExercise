@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #FB7979 42.19%, #978eff 100%);
+    background-attachment: fixed;
+}
+/*
+.Nav{
+    height: 60px;
+    background-color: #3D3636;
+    
+}*/
+
+.Form{
+    box-sizing: border-box;
+    width: 540px;
+    height: 510px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    
+}
+
+.Form-header{
+    margin: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.Form-content{
+    width: auto;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 1px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Form-content div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Form-content input[type=text], input[type=date] {
+    font-size: 16px;
+    line-height: 20px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #00ccff;
+}
+
+img{
+    height: 130px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -60px;
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+}
+
+.name input[type=text]{
+    width: 142px;
+}
+
+.email input[type=text]{
+    width: 310px;
+}
+
+.phonenumber input[type=text]{
+    width: 310px;
+}
+
+.gender{
+    display: flex;
+    gap: 2px;
+}
+
+.gender input[type=text]{
+    border: none;
+    border-bottom: 2px solid rgb(117, 117, 117);
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+}
+
+.gender label{
+    padding-top: 8px;
+}
+
+.submit{
+    text-align: center;
+}
+
+.submit button{
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #dc2430  0%, #7b4397  42%, #dc2430 100%);
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 26px;
+
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+   
+}
+.submit button:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+         
+        
+
+          

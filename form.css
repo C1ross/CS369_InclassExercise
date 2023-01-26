@@ -13,6 +13,26 @@ body{
     
 }*/
 
+img {
+    height: 130px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -60px;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+
 .Form{
     box-sizing: border-box;
     width: 540px;
@@ -56,16 +76,6 @@ body{
     background-color: #ffffff;
     border-radius: 5px;
     border-color: #00ccff;
-}
-
-img{
-    height: 130px;
-    width: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: -60px;
 }
 
 .name{

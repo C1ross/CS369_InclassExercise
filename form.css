@@ -1,55 +1,59 @@
+.accept-label{
+  
+    display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+    
+}
+
 body{
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(180deg, #FB7979 42.19%, #978eff 100%);
+    height: 1200px;
+    background: linear-gradient(to top, #da089b 5.19%, #ffffff 100%);
     background-attachment: fixed;
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(189, 5, 149);
 }
-/*
+
+.Checkbox input[type="checkbox"]{
+    width: 15px;
+    height: 20px;
+    padding-top: 0px;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+    
+}
+
 .Nav{
     height: 60px;
-    background-color: #3D3636;
+    background-color: #050000;
     
-}*/
-
-img {
-    height: 130px;
-    width: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: -60px;
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 2s infinite  alternate;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
 }
 
 .Form{
     box-sizing: border-box;
     width: 540px;
-    height: 510px;
-    margin-top: 50px;
+    height: 640px;
+    margin-top: 100px;
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto;
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid #d6d6d6;
     border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(141, 2, 106);
     
 }
 
 .Form-header{
-    margin: 20px;
-    color: #000000;
+    margin: 30px;
+    color:rgb(189, 5, 149);
     text-align: center;
 }
 
@@ -58,7 +62,7 @@ img {
     height: auto;
     margin-left: 100px;
     margin-right: 100px;
-    padding-top: 1px;
+    padding-top: 5px;
     font-size: 16px;
     line-height: 20px;
 }
@@ -68,15 +72,43 @@ img {
     margin-bottom: 20px;
 }
 
-.Form-content input[type=text], input[type=date] {
+.Form-content input{
     font-size: 16px;
     line-height: 20px;
     height: 30px;
     padding-left: 10px;
     background-color: #ffffff;
     border-radius: 5px;
-    border-color: #00ccff;
+    border-color: #fd00b1;
+    
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(189, 10, 165);
+    opacity: 1; /* Firefox */
+  }
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+
+img{
+    height: 10%;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: -120px;
+
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
 
 .name{
     display: flex;
@@ -117,12 +149,12 @@ img {
 }
 
 .submit button{
-    margin-top: 10px;
+    margin-top: 40px;
     padding-top: 5px;
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 5px;
-    background-image: linear-gradient(to right, #dc2430  0%, #7b4397  42%, #dc2430 100%);
+    background-image: linear-gradient(to left, #f304bf  0%, #7e0760  51%, #47023e 100%);
     border: 1px solid #9c9c9c;
     border-radius: 5px;
     font-weight: 100;
@@ -138,10 +170,9 @@ img {
 }
 .submit button:hover{
     background-position: right center; /* change the direction of the change here */
-    color: rgb(255, 255, 255);
+    color: #fff;
     text-decoration: none;
 }
          
-        
-
+ 
           
